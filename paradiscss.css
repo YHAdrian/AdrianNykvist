@@ -84,7 +84,7 @@ footer {
 h1 {
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 5vw; 
-	line-height: 0.5;
+	line-height: 0.1;
 	color: rgb(16, 165, 225);
 }
 
@@ -98,7 +98,7 @@ p#motto {
 	color: azure;
 	text-decoration: overline;
 	font-style: italic;
-	line-height: 0.2;
+	line-height: 0.7;
 }
 
 p#tel {
@@ -130,4 +130,8 @@ div.article {
 
 img#logo {
 	float: right;
+}
+table#prod {
+	width: 80%;
+	margin: auto;
 }
