@@ -1,0 +1,133 @@
+body {
+	margin:0;
+	background-color: azure;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    width: 100%;
+	float: top;
+}
+
+li.left {
+    float: left;
+}
+
+li.right {
+    float: right;
+	}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    text-align: left;
+	background-color: black;
+	color: white;
+}
+
+.tableimg {
+	width: 150px;
+	height: 150px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding-top: 5px;
+	height: 100%;
+	width: 100%;
+}	
+
+footer {
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding-bottom: 50px;
+	height: 100%;
+	width: 100%;
+}	
+
+#logo {
+	position: absolute;
+	top: 0;
+    right: 0;
+	float: left;
+	padding: 10px;
+	margin: 0;
+
+}
+
+h1 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 5vw; 
+	line-height: 0.5;
+	color: rgb(16, 165, 225);
+}
+
+h2 {
+	font-family: Arial, Charcoal, sans-serif;
+	font-style: bold;
+}	
+
+p#motto {
+	text-align: left;
+	color: azure;
+	text-decoration: overline;
+	font-style: italic;
+	line-height: 0.2;
+}
+
+p#tel {
+	color: grey;
+	font-size: 15px;
+	font-style: italic;
+	margin: 5px;
+}
+
+address.address {
+	font-size: 20px;
+	text-align: left;
+	color: rgb(3, 199, 253);
+	padding-top: 10px;
+	margin: 5px;
+	left: 0;
+}
+
+div.left {
+	text-align: right;
+	float: right;
+	margin: 5px;
+}	
+
+div.article {
+	padding: 20px;
+	margin-top:30px;
+}
+
+img#logo {
+	float: right;
+}
