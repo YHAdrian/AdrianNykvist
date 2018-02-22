@@ -86,6 +86,8 @@ h1 {
 	font-size: 5vw; 
 	line-height: 0.1;
 	color: rgb(16, 165, 225);
+	margin-bottom: 50px;
+	margin-left: 10px;
 }
 
 h2 {
@@ -94,6 +96,7 @@ h2 {
 	background-color: lightblue;
 	border: 2px solid black;
 	border-radius: 8px;
+	padding-left: 5px;
 }	
 
 p#motto {
@@ -101,7 +104,8 @@ p#motto {
 	color: azure;
 	text-decoration: overline;
 	font-style: italic;
-	line-height: 0.7;
+	margin: 0;
+	margin-left: 10px;
 }
 
 p#tel {
